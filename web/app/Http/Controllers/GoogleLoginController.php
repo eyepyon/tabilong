@@ -25,7 +25,7 @@ class GoogleLoginController extends Controller
             'google_id' => $googleUser->getId()
         ]);
         Auth::login($user, true);
-        return redirect('/home');
+        return redirect('/dashboard');
     }
 }
 

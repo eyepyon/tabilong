@@ -41,6 +41,22 @@ class Vr extends MY_Controller
                 }
                 break;
             case 3:
+                if ($machine_model == 'ios') {
+                    $url = "/file/mp4/r3/r3.m3u8";
+                } else {
+                    $url = "/file/R0010040_er.MP4";
+                }
+                //            $url = "/file/R0010046_er.MP4";
+                break;
+            case 4:
+                $url = "/file/hk.mp4";
+                break;
+            case 5:
+                $url = "/file/kr.mp4";
+                break;
+            case 6:
+                $url = "/file/fuji.mp4";
+                break;
             default:
                 if ($machine_model == 'ios') {
                     $url = "/file/mp4/r3/r3.m3u8";
