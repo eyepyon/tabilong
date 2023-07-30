@@ -21,3 +21,7 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+/ship/ci3/application/cache/templates_c/
+/ship/ci3/application/config/define.php
+/ship/ci3/application/config/facebook.php
+/ship/ci3/application/config/paypallib_config.php
