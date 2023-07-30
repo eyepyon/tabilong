@@ -139,7 +139,7 @@ $config['subclass_prefix'] = 'MY_';
 |	autoloading (application/config/autoload.php)
 */
 //$config['composer_autoload'] = FALSE;
-$config['composer_autoload'] = '/var/www/vendor/autoload.php';
+$config['composer_autoload'] = '/var/www/tabilong/web/vendor/autoload.php';
 //$config['composer_autoload'] = TRUE;
 //require_once '/var/www/vendor/autoload.php';
 
@@ -242,7 +242,6 @@ $config['log_threshold'] = 2;
 |
 */
 //$config['log_path'] = '';
-//$config['log_path'] = '/var/www/neo/ci3/application/logs/';
 $config['log_path'] = APPPATH.'logs/';
 
 /*
